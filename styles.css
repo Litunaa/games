@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+
+
+.main-container{
+    display: grid;
+    grid-template-areas:
+                    "top top top"
+                    "left left right"
+                    "left left right"
+                    "left left right"
+                    "bottom bottom bottom";
+
+    background-color: grey;
+
+    grid-template-rows: 1fr, 2fr, 2fr;
+    grid-template-columns: 2fr, 2fr, 1fr;
+    min-height: 95vh;
+    max-height: 95vh;
+    grid-gap: 10px;
+}
+
+.main-container > div{
+    
+}
+
+.top-section{
+    grid-area: top;
+    background-color: brown;
+    display: grid;
+}
+
+
+.games-section{
+    grid-area: left;
+    background-color: aqua;
+    display: grid;
+}
+
+.search-and-category-section{
+    grid-area: right;
+    background-color: blanchedalmond;
+    display:grid
+}
