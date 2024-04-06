@@ -8,7 +8,7 @@
 
 <body>
     <header class="header">
-        <a href="#" class="logo">GamesEU</a>
+        <a href="home.html" class="logo">GamesEU</a>
 
         <nav class="navbar">
             <a href="home.html">Home</a>
@@ -122,7 +122,48 @@
                 <div class="search">
                     <form action="#" method="post">
                         <input type="text" placeholder="Search">
-                        <button type="submit">🔎</button>
+                        <button type="submit" onclick=search()>🔎</button>
+                    </form>
+                </div>
+                <div class="categories">
+                    <h1>Sort By Category</h1>
+                    <form action="#" method="post">
+                        <div class="fps">
+                            <label for="fps">First Person Shooter</label>
+                            <input type="checkbox">
+                        </div>
+
+                        <div class="tps">
+                            <label for="tps">Third Person Shooter</label>
+                            <input type="checkbox">                       
+                        </div>
+
+                        <div class="BR">
+                            <label for="BR">Battle Royale</label>
+                            <input type="checkbox">
+                        </div>
+
+                        <div class="td">
+                            <label for="td">Tower Defense</label>
+                            <input type="checkbox">
+                        </div>
+
+                        <div class="zombies">
+                            <label for="zombies">Zombies</label>
+                            <input type="checkbox">
+                        </div>
+
+                        <div class="multi">
+                            <label for="multi">Multiplayer</label>
+                            <input type="checkbox">
+                        </div>
+
+                        <div class="campaign">
+                            <label for="campaign">Campaign</label>
+                            <input type="checkbox">    
+                        </div>
+                        
+                        <button type="submit" onclick=filter()>Filter</button>
                     </form>
                 </div>
             </div>
@@ -132,7 +173,18 @@
     </main>
 
     <footer class="footer">
-        
+        <div class="footer-information">
+            <a href="faq.html">
+                FAQ
+            </a>
+
+            <a href="termsofuse.html">
+                Terms of use 
+            </a>
+            <a href="cookies.html">
+                Cookies
+            </a>
+        </div>
     </footer>
 </body>
 </html>
