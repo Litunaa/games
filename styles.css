@@ -3,6 +3,7 @@ body{
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
+    
 }
 
 .game-site-body{
@@ -34,13 +35,13 @@ body{
     font-size: 32px;
     color: #fff;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .navbar a {
     font-size: 18px;
     color: #fff;
-    font-synthesis: 500;
+    font-weight: 500;
     text-decoration: none;
     margin-left: 40px;
 }
@@ -50,11 +51,11 @@ body{
     cursor: default;
 }
 
-
-
-.games-container{
-    position: relative;
+.main {
     margin-top: 80px;
+}
+
+.main-container{
     display: flex;
     height: 100vh;
     align-items: center;
