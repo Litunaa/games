@@ -1,7 +1,6 @@
 let totalCost = 0;
 let selectedGames = 0;
 
-
 const categories = {
     "Call of Duty®: Black Ops": ["First Person Shooter", "Zombies", "Multiplayer", "Campaign"], 
     "Call of Duty®: Black Ops II": ["First Person Shooter", "Zombies", "Multiplayer", "Campaign"],
@@ -14,7 +13,6 @@ const categories = {
     "Call of Duty: World at War": ["First Person Shooter", "Zombies", "Multiplayer", "Campaign"]
 }
 
-
 function purchase(price){
     totalCost += price;
     selectedGames++;
@@ -26,8 +24,6 @@ function updateCostDisplay(){
     const formattedCost = totalCost.toFixed(2);
     costDisplay.textContent = "Total cost: " + "€" + formattedCost  + " " + "(" + selectedGames + " " + "games selected" + ")";
 }
-
-
 
 function filter(){
 
@@ -66,7 +62,6 @@ function filter(){
     
 }
 
-
 function search(){
 
     const games = document.querySelectorAll('.game');
@@ -89,7 +84,6 @@ function search(){
 
 }
 
-
 function resetFilters(){
     const games = document.querySelectorAll('.game');
 
@@ -97,7 +91,7 @@ function resetFilters(){
         game.style.display = ""
 
     })
-
+    
     const checkboxes = document.querySelectorAll('.fps input[type="checkbox"], .tps input[type="checkbox"], .BR input[type="checkbox"], .td input[type="checkbox"], .zombies input[type="checkbox"], .multi input[type="checkbox"], .campaign input[type="checkbox"]');
 
     checkboxes.forEach(function(checkbox){
