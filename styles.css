@@ -10,7 +10,6 @@ body{
     overflow-y: hidden;
 }
 
-
 *{
     margin: 0;
     padding: 0;
@@ -131,7 +130,6 @@ body{
 .buy-button:hover{
     background-color: #45a049;
 }
-
 
 .side-bar{
     flex: 1;
@@ -263,8 +261,6 @@ body{
     border-color: white;
 }
 
-
-
 .footer{
     bottom: 0;
     background-color: rgb(9, 13, 32);
@@ -276,7 +272,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 
 .footer-information{
     width: 50vw;
@@ -321,7 +316,6 @@ body{
     border-radius: 45px;
 }
 
-
 .description-container{
     flex: 1;
     color: white;
@@ -350,7 +344,6 @@ body{
     margin: 0; 
     padding: 0; 
 }
-
 
 .add-to-cart-container{
     display: flex;
@@ -383,6 +376,7 @@ body{
     bottom: 9vh;
     font-size: 35px;
 }
+
 .terms {
     position: relative;
     font-size: 12px;
@@ -394,7 +388,6 @@ body{
     margin-right: auto; 
     color: #424040;
 }
-
 
 .game-footer{
     position: absolute;
@@ -432,7 +425,6 @@ body{
     text-decoration: none;
     font-weight: 700;
 }
-
 
 .inputs {
     display: flex;
