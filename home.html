@@ -121,7 +121,7 @@
             <div class="side-bar">
                 <div class="search">
                     <form action="#" method="post">
-                        <input type="text" placeholder="Search">
+                        <input type="text" id="searchInput" placeholder="Search">
                         <button type="button" onclick=search()>🔎</button>
                     </form>
                 </div>
@@ -165,6 +165,12 @@
                         
                         <button type="button" onclick=filter()>Filter</button>
                     </form>
+                </div>
+
+                <div class="reset">
+                    
+                    <button onclick=resetFilters()>Reset Filters</button>
+
                 </div>
             </div>
         </div>

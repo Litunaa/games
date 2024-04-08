@@ -14,6 +14,7 @@ const categories = {
     "Call of Duty: World at War": ["First Person Shooter", "Zombies", "Multiplayer", "Campaign"]
 }
 
+
 function purchase(price){
     totalCost += price;
     selectedGames++;
@@ -56,20 +57,55 @@ function filter(){
         });
 
         if (hideGame){
-            game.style.pointerEvents = 'none';
-            game.style.opacity = '0';
+            game.style.display = "none";
         }
         else{
-            game.style.pointerEvents = 'auto';
-            game.style.opacity = '1'; 
+            game.style.display = ""
         }
-
-        
     });
     
 }
 
 
 function search(){
+
+    const games = document.querySelectorAll('.game');
+    const searchInput = document.getElementById("searchInput");
+    const searchContent = searchInput.value.toLowerCase();
     
+    
+    games.forEach(function(game){
+        const gameTitle = game.querySelector('.title').textContent.toLowerCase();
+        if(!gameTitle.includes(searchContent)){
+            game.style.display = "none";
+
+        }
+        else{
+            game.style.display = ""
+        }
+    });
+
+    searchInput.value = "";
+
+}
+
+
+function resetFilters(){
+    const games = document.querySelectorAll('.game');
+
+    games.forEach(function(game){
+        game.style.display = ""
+
+    })
+
+    const checkboxes = document.querySelectorAll('.fps input[type="checkbox"], .tps input[type="checkbox"], .BR input[type="checkbox"], .td input[type="checkbox"], .zombies input[type="checkbox"], .multi input[type="checkbox"], .campaign input[type="checkbox"]');
+
+    checkboxes.forEach(function(checkbox){
+        if (checkbox.checked){
+            checkbox.checked = false;
+        }
+    });
+
+    const searchInput = document.getElementById("searchInput");
+    searchInput.value = "";
 }
