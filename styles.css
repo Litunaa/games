@@ -497,7 +497,8 @@ body{
     flex-direction: column;
     align-items: center;
     color: white;
-    margin-top: 80px
+    margin-top: 80px;
+    background-color: rgb(31, 31, 31);
 }
 
 .faq-main{
@@ -507,4 +508,46 @@ body{
 .faq-container h1{
     font-size: 5vh;
     margin-bottom: 2em;
+    font-weight: 400;
 }
+
+
+.question{
+    margin-bottom: 4vh
+}
+.question h2{
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1vh
+
+}
+.question p{
+    text-align: center;
+}
+
+
+
+.terms-of-use-container{
+    width: 100%;
+    margin-top: 80px;
+    height: 100vh;
+    background-color: rgb(31, 31, 31);
+    text-align: center;
+    color: white;
+    line-height: 1.5;
+}
+
+
+.terms-of-use-container h2{ /*Sub title*/
+    font-size: 3vh;
+    margin-bottom: 0.5em; 
+    font-weight: 700;
+    margin-top: 1.5em
+}
+
+.terms-of-use-title{
+    font-size: 5vh;
+    margin-bottom: 1em;
+    font-weight: 400;
+}
+
