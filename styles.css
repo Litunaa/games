@@ -107,9 +107,10 @@ body{
 
 .title {
     position: absolute;
-    bottom: 7.9vh;
+    bottom: 7.5vh;
     color: white;
     width: 100%;
+    font-size: 2vh;
 }
 
 
@@ -119,6 +120,7 @@ body{
     margin-bottom: 0.4vh;
     margin-top: 1.7vh;
     font-weight: bold;
+    font-size: 2.5vh;
 }
 .buy {
     text-align: center;
@@ -135,6 +137,7 @@ body{
     font-size: 16px;
     cursor: pointer;
 }
+
 
 .buy-button:hover{
     background-color: #45a049;
@@ -215,6 +218,7 @@ body{
     right: 0;
     text-align: center;
     color: #727272;
+    font-size: 4vh;
 }
 
 .categories form {
@@ -231,6 +235,7 @@ body{
 
 .categories form label {
     color: #a9a9a9;
+    font-size: 2.2vh;
 }
 
 .categories form h1 {
