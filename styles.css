@@ -32,7 +32,7 @@ body{
 }
 
 .logo{
-    font-size: 32px;
+    font-size: 2.3vw;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -43,7 +43,7 @@ body{
 }
 
 .navbar a {
-    font-size: 18px;
+    font-size: 1.4vw;
     color: #fff;
     font-weight: 500;
     text-decoration: none;
@@ -107,10 +107,11 @@ body{
 
 .title {
     position: absolute;
-    bottom: 7.5vh;
+    bottom: 7.4vh;
     color: white;
     width: 100%;
-    font-size: 2vh;
+    font-size: 1vw;
+    
 }
 
 
@@ -118,9 +119,9 @@ body{
     text-align: center;
     color: white;
     margin-bottom: 0.4vh;
-    margin-top: 1.7vh;
+    margin-top: 1.8vh;
     font-weight: bold;
-    font-size: 2.5vh;
+    font-size: 1vw;
 }
 .buy {
     text-align: center;
@@ -128,13 +129,13 @@ body{
 }
 
 .buy-button{
-    width: 4vw;
+    width: fit-content;
     padding: 5px;
     background-color: #4CAF50;
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 1.1vw;
     cursor: pointer;
 }
 
@@ -170,7 +171,7 @@ body{
     border: solid black;
     border-radius: 8px;
     background-color: #424040;
-    font-size: 18px;
+    font-size: 1.7vw;
     padding: 0;
     border-width: 1px;
     color: white;
@@ -181,7 +182,7 @@ body{
     height: 6vh;
     margin-left: 1vw;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.8vw;
     background-color: #424040;
     border-radius: 8px;
     border: solid black;
@@ -218,7 +219,7 @@ body{
     right: 0;
     text-align: center;
     color: #727272;
-    font-size: 4vh;
+    font-size: 1.6vw;
 }
 
 .categories form {
@@ -235,7 +236,7 @@ body{
 
 .categories form label {
     color: #a9a9a9;
-    font-size: 2.2vh;
+    font-size: 1vw;
 }
 
 .categories form h1 {
@@ -261,7 +262,7 @@ body{
     background-color:#111111;
     border-radius: 2px;
     color: #a9a9a9;
-    font-size: 18px;
+    font-size: 1.5vw;
     cursor: pointer;
 }
 
@@ -277,7 +278,7 @@ body{
     color: #a9a9a9;
     background-color: #111111;
     border-width: 2px;
-    font-size: 15px;
+    font-size: 1vw;
     border-color: white;
     cursor: pointer;
 }
@@ -321,19 +322,10 @@ body{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
-    font-size: 45px;
+    font-size: 3vw;
     color: white;
 }
 
-.game-site-price{
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: normal;
-    font-size: 30px;
-    color: white;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-}
 
 .trailer {
     display: flex;
@@ -348,17 +340,16 @@ body{
 .description-container{
     flex: 1;
     color: white;
-    font-size: 25px;
 }
 
 .description-title{
-    font-size: 25px;
+    font-size: 1.7vw;
     color: white;
     margin-top: 2vh;
 }
 
 .description-text{
-    font-size: 14px;
+    font-size: 1.05vw;
     color: white;
     margin-top: 2.5vh;
     margin-left: 1vw;
@@ -380,7 +371,6 @@ body{
     position: relative;
     flex: 1;
     color: white;
-    font-size: 25px;
     max-height: 100%;
     min-height: 100%;
 
@@ -395,20 +385,24 @@ body{
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 1.3vw;
     cursor: pointer;
     height: 5vh;
 }
 
+
+.add-to-cart-container button:hover{
+    background-color: #45a049;
+}
 .add-to-cart-container h1{
     position: absolute;
     bottom: 9vh;
-    font-size: 35px;
+    font-size: 2.3vw;
 }
 
 .terms {
     position: relative;
-    font-size: 12px;
+    font-size: 0.9vw;
     width: 1000px;
     text-align: center; 
     top: 0;
@@ -449,8 +443,9 @@ body{
 
 .login-frame h1{
     margin-top: 3vh;
+    margin-bottom: 1.3vh;
     color: white;
-    font-size: 35px;
+    font-size: 1.7vw;
     text-decoration: none;
     font-weight: 700;
 }
@@ -459,12 +454,10 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 7vh;
 }
 
 .inputs input{
     background-color: #424040;
-
     width: 13vw;
     height: 4.5vh;
     text-align: center;
@@ -473,6 +466,7 @@ body{
     border-color: black;
     border-width: 2px;
     margin-bottom: 5vh;
+    margin-top: 1vh;
     border-width: 1px;
 }
 
@@ -482,22 +476,27 @@ body{
 }
 
 .inputs button {
-    margin-top: 5vh;
+    margin-top: 2vh;
     width: 15vw;
     height: 6vh;
     border-radius: 8px;
     background-color: green;
     border: solid black;
     border-width: 1px;
-    font-size: 20px;
+    font-size: 1.3vw;
     color: white;
     cursor: pointer;
 }
 
-
+.inputs button:hover{
+    background-color: #45a049;
+}
 
 .faq-container{
-    width: 100%;
+    position: absolute;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -511,7 +510,7 @@ body{
 }
 
 .faq-container h1{
-    font-size: 5vh;
+    font-size: 2.5vw;
     margin-bottom: 2em;
     font-weight: 400;
 }
@@ -523,7 +522,8 @@ body{
 .question h2{
     font-weight: 300;
     text-align: center;
-    margin-bottom: 1vh
+    margin-bottom: 1vh;
+    font-size: 1.5vw;
 
 }
 .question p{
@@ -544,14 +544,14 @@ body{
 
 
 .terms-of-use-container h2{ /*Sub title*/
-    font-size: 3vh;
+    font-size: 1.5vw;
     margin-bottom: 0.5em; 
     font-weight: 700;
     margin-top: 1.5em
 }
 
 .terms-of-use-title{
-    font-size: 5vh;
+    font-size: 2.5vw;
     margin-bottom: 1em;
     font-weight: 400;
 }
@@ -572,7 +572,7 @@ body{
 .cookie-container h1{
     text-align: center;
     font-weight: 400;
-    font-size: 5vh;
+    font-size: 2.3vw;
     margin-bottom: 4vh;
 }
 
@@ -586,7 +586,6 @@ body{
 .about-us-container{
     position: absolute;
     left: 50%;
-    right: 50%; 
     transform: translateX(-50%);
     margin-top: 80px;
     width: 80%;
@@ -597,11 +596,11 @@ body{
     line-height: 1.5;
 }
 .about-us-container h1{
-    font-size: 5vh;
+    font-size: 2.5vw;
     font-weight: 400;
     margin-bottom: 5vh
 }
 .about-us-text{
-    font-size: 2vh;
+    font-size: 1.2vw;
     font-weight: lighter;
 }
