@@ -43,7 +43,7 @@ body{
 }
 
 .navbar a {
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     color: #fff;
     font-weight: 500;
     text-decoration: none;
@@ -101,24 +101,19 @@ body{
 .game {
     position: relative;
     text-align: center;
-    height: 30vh;
+    height: 27vh;
 }
 
 .title {
-    position: absolute;
-    bottom: 7.4vh;
     color: white;
     width: 100%;
-    font-size: 1vw;
 }
 
 .price{
     text-align: center;
     color: white;
-    margin-bottom: 0.4vh;
-    margin-top: 2vh;
-    font-weight: bold;
-    font-size: 1vw;
+    font-weight: light;
+    font-size: 0.9vw;
 }
 
 
@@ -129,7 +124,7 @@ body{
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 1.1vw;
+    font-size: 1vw;
     cursor: pointer;
 }
 
