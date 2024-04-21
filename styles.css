@@ -500,7 +500,7 @@ body{
 
 .faq-container h1{
     font-size: 2.5vw;
-    margin-bottom: 2em;
+    margin-bottom: 2rem;
     font-weight: 400;
 }
 
@@ -534,14 +534,14 @@ body{
 
 .terms-of-use-container h2{ /*Sub title*/
     font-size: 1.5vw;
-    margin-bottom: 0.5em; 
+    margin-bottom: 0.5rem; 
     font-weight: 700;
-    margin-top: 1.5em
+    margin-top: 1.5rem
 }
 
 .terms-of-use-title{
     font-size: 2.5vw;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
     font-weight: 400;
 }
 
