@@ -753,4 +753,8 @@ body{
     .terms {
         font-size: 1.5vw;
     }
+
+    .description-text {
+        font-size: 45%;
+    }
 }
