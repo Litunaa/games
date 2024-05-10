@@ -598,7 +598,7 @@ body{
 
 @media (max-width: 600px){
     body {
-        height: 275vh;
+        height: 365vh;
     }
     .main-container{
         flex-direction: column;
@@ -617,12 +617,12 @@ body{
 
     .game {
         height: 20vh;
-        margin-bottom: 1vh;
+        margin-bottom: 10vh;
     }
 
     .game img {
-        height: 70%;
-        width: 80%;
+        height: 90%;
+        width: 70%;
     }
 
     .title{
@@ -672,7 +672,7 @@ body{
         margin-top: 3vh;
         width: 85%;
         min-width: 85%;
-        height: 45vh;
+        height: 50vh;
     }
 
     .categories h1{
