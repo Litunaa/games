@@ -7,7 +7,7 @@ const categories = {
     "Call of Duty®: Black Ops III": ["First Person Shooter", "Zombies", "Multiplayer", "Campaign"],
     "Apex Legends": ["Battle Royale", "Multiplayer", "First Person Shooter"],
     "Counter-Strike 2": ["First Person Shooter", "Multiplayer"],
-    "Coutner-Strike Source": ["First Person Shooter", "Multiplayer"],
+    "Counter-Strike Source": ["First Person Shooter", "Multiplayer"],
     "Garry's Mod": ["First Person Shooter", "Multiplayer", "Third Person Shooter"],
     "Dungeon Defenders II": ["Third Person Shooter", "Tower Defense", "Multiplayer"],
     "Call of Duty: World at War": ["First Person Shooter", "Zombies", "Multiplayer", "Campaign"]
