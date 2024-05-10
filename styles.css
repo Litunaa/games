@@ -386,7 +386,7 @@ body{
 
 .terms {
     position: relative;
-    font-size: 0.9vw;
+    font-size: 0.7vw;
     width: 70vw;
     text-align: center; 
     top: 0;
@@ -729,5 +729,28 @@ body{
 
     .logo {
         margin-bottom: 1vh;
+    }
+
+    .trailer {
+        margin-top: 25vh;
+    }
+
+    .login-container {
+        margin-top: 8vh;
+    }
+
+    .about-us-text {
+        font-size: 70%;
+    }
+    .about-us-container {
+        margin-top: 18vh;
+    }
+
+    .about-us-container h1 {
+        font-size: 140%;
+    } 
+
+    .terms {
+        font-size: 1.5vw;
     }
 }
