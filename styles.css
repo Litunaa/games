@@ -732,7 +732,7 @@ body{
     }
 
     .trailer {
-        margin-top: 25vh;
+        margin-top: 22vh;
     }
 
     .login-container {
@@ -752,9 +752,38 @@ body{
 
     .terms {
         font-size: 1.5vw;
+        width: fit-content;
+    }
+
+    .game-footer{
+        height: fit-content;
+        padding-bottom: 1vh;
     }
 
     .description-text {
-        font-size: 45%;
+        font-size: 65%;
+        margin-bottom: 2%;
     }
+
+    .trailer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .add-to-cart-container {
+        flex-direction: column;
+    }
+
+    .add-to-cart-container button {
+        position: static;
+        margin-top: 3%;
+        margin-bottom: 10%;
+        font-size: 75%;
+    }
+
+    .add-to-cart-container h1 {
+        position: static;
+        margin-top: 5%;
+    }
+    
 }
