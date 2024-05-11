@@ -59,6 +59,7 @@ function filter(){
             game.style.display = ""
         }
     });
+    scrollToTop()
     
 }
 
@@ -81,6 +82,7 @@ function search(){
     });
 
     searchInput.value = "";
+    scrollToTop()
 
 }
 
@@ -102,4 +104,10 @@ function resetFilters(){
 
     const searchInput = document.getElementById("searchInput");
     searchInput.value = "";
+    scrollToTop()
+}
+
+
+function scrollToTop(){
+    window.scrollTo(0, 0);
 }
